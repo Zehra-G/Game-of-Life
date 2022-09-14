@@ -15,6 +15,20 @@
 
 ### [Here is a video of the second version of the simulation](https://user-images.githubusercontent.com/113384943/190224101-f243cbb1-ddab-4806-8e63-99706c1658e1.mov)
 
+### Images from both versions of the simulation:
+<p align = "center">
+<img width="1010" alt="Screen Shot 2022-09-14 at 13 40 19" src="https://user-images.githubusercontent.com/113384943/190251111-177ead96-8b5e-4746-b030-eb187c472653.png">
+</p>
+<p align = "center">
+Screenshot from Conway's Game of Life
+</p>
+<p align = "center">
+<img width="990" alt="Screen Shot 2022-09-14 at 13 39 58" src="https://user-images.githubusercontent.com/113384943/190251130-60fb232b-4c04-4a34-b1b2-e49506f75f34.png">
+</p>
+<p align = "center">
+Screenshot from the second version incorporating the spread of virus
+</p>
+
 ## Sources & Imported Libraries
 - Java Swing
 - Java Graphics 
