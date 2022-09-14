@@ -13,9 +13,7 @@
 - Specify the number of rows, columns, the cell density, and the iteration number when running LifeSimulation.java
 - A question asking whether the user wants to incorporate the new rules in the simulation will be printed out on the terminal, answer "No" to see Conway's Game of Life and "Yes" to see the second version of the simulation incoroprating a virus spreading. 
 
-### Here is a video of the second version of the simulation:
-https://user-images.githubusercontent.com/113384943/190223388-924c09c6-acc3-4c4a-ad32-7ab012113646.mov
-
+### [Here is a video of the second version of the simulation](https://user-images.githubusercontent.com/113384943/190224101-f243cbb1-ddab-4806-8e63-99706c1658e1.mov)
 
 ## Sources & Imported Libraries
 - Java Swing
