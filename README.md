@@ -1,7 +1,7 @@
 # Conway's Game-of-Life & Simulation of Virus Spread
 
 ## Project Description
-- In this project, I simulated Conways’s Game of Life and made a visualization of it using the Java Swing graphical user interface. According to the rules of the game, the alive cells die if they don’t have either two or three living neighbors, and dead cells are set alive if they have exactly three living neighbors. In the simulation, the living cells are represented in green and the dead ones are grey. I used the Cell class to represent the locations on the Landscape -which was an array of arrays to hold the Cell object references (a 2D grid of cells). The visual representations were made using Java Swing. The LifeSimulation class was modeled after the LandscapeDisplay class that was provided to me by Colby College CS Department. I created a Landscape object scape of desired numbers of rows & columns, populated it with a certain density of alive cells, and created a LandscapeDisplay object of display. In the simulation, there is a 250-millisecond pause between every generation so that the change is observable. 
+- In this project, I simulated [Conways’s Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and made a visualization of it using the Java Swing graphical user interface. According to the rules of the game, the alive cells die if they don’t have either two or three living neighbors, and dead cells are set alive if they have exactly three living neighbors. In the simulation, the living cells are represented in green and the dead ones are grey. I used the Cell class to represent the locations on the Landscape -which was an array of arrays to hold the Cell object references (a 2D grid of cells). The visual representations were made using Java Swing. The LifeSimulation class was modeled after the LandscapeDisplay class that was provided to me by Colby College CS Department. I created a Landscape object scape of desired numbers of rows & columns, populated it with a certain density of alive cells, and created a LandscapeDisplay object of display. In the simulation, there is a 250-millisecond pause between every generation so that the change is observable. 
 
 ## How To Run 
 - The user can determine the number of rows and columns in the landscape, the cell density of the initial board, and the number of iterations that they want the simulation to continue for using the terminal. These parameters are passed in from the command line. 
@@ -13,8 +13,13 @@
 - Dead cells can also carry the virus but will stay hidden (grey) because only alive and infected cells show up as red. The draw method was modified so that it represents the cells red only if they are alive and infected. This didn’t change my original Conway’s simulation, because all of the cells are set to healthy by default.
 - In the new rules that I designed, the cells are stronger, meaning that they are more enduring of overpopulation (the number of alive neighboring cells can go up to four for a cell to remain alive). This method also accounts for the disease, an infected cell heals if only 0 or 1 of its neighbors are infected, it dies if over 5 neighboring cells are infected (and the virus stays, so even if it is set alive by the population it is going to be both infected and alive). A healthy cell gets infected if between 2 and 5 of its neighbors are infected, it dies and carries the virus if over 5 of the neighbors are infected, and stay healthy if less than or equal to 2 neighbors are infected.
 
-##Sources & Imported Libraries
-- Prof. Allen Harper 
+## Sources & Imported Libraries
 - Java Swing
 - Java Graphics 
 - W3schools.com
+
+## Acknowledgements
+- Prof. Allen Harper, Colby College Computer Science Department 
+- Prof. Naser Al Madi, Colby College Computer Science Department 
+- [Great example for README](https://github.com/nalmadi/EMIP-Toolkit)
+
