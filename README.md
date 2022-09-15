@@ -1,5 +1,10 @@
 # Conway's Game-of-Life & Simulation of Virus Spread
 
+
+![GitHub All Releases](https://img.shields.io/github/commit-activity/w/Zehra-G/Game-of-Life?color=pink&logoColor=pink&style=flat-square)
+![GitHub All Releases](https://img.shields.io/github/followers/Zehra-G?color=pink&logoColor=pink&style=social)
+
+
 ## 🌱 Project Description
 - In this project, I simulated [Conways’s Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and made a visualization of it using the Java Swing graphical user interface. According to the rules of the game, the alive cells die if they don’t have either two or three living neighbors, and dead cells are set alive if they have exactly three living neighbors. In the simulation, the living cells are represented in green and the dead ones are grey. I used the Cell class to represent the locations on the Landscape -which was an array of arrays to hold the Cell object references (a 2D grid of cells). The visual representations were made using Java Swing. The LifeSimulation class was modeled after the LandscapeDisplay class that was provided to me by Colby College CS Department. I created a Landscape object scape of desired numbers of rows & columns, populated it with a certain density of alive cells, and created a LandscapeDisplay object of display. In the simulation, there is a 250-millisecond pause between every generation so that the change is observable. 
 
